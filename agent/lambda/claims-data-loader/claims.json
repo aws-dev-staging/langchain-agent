@@ -1,0 +1,118 @@
+[
+  {
+    "PolicyId": "HW101604238",
+    "ClaimId": "9x87y-3z",
+    "ClaimType": "Appliance Repair",
+    "Email": "example@amazon.com",
+    "ClaimDatetime": "2023-11-22 15:21:00",
+    "Incident": {
+      "Date": "2023-11-21",
+      "Hour": 14,
+      "Type": "Dishwasher Breakdown",
+      "Severity": "Major"
+    },
+    "Damage": {
+      "Type": "Mechanical Failure",
+      "Description": "The dishwasher stopped working and is not draining water."
+    },
+    "Homeowner": {
+      "Age": 65,
+      "InsuredRelationship": "primary",
+      "OwnershipYears": 20
+    },
+    "ClaimAmount": {
+      "Total": 400,
+      "RepairCost": 350,
+      "ServiceFee": 50
+    },
+    "NumberWitnesses": 0,
+    "SuspiciousActivity": false,
+    "MonthsAsCustomer": 60,
+    "Status": "Closed",
+    "PropertyType": "Single-Family",
+    "PlanType": "Essential",
+    "Appliances": ["Dishwasher"],
+    "Plumbing": ["Plumbing"],
+    "Systems": ["Electrical"],
+    "HVAC": ["Air Conditioning"],
+    "AdditionalLimits": []
+  },
+  {
+    "PolicyId": "HW101604237",
+    "ClaimId": "5t16u-7v",
+    "ClaimType": "System Repair",
+    "Email": "example@amazon.com",
+    "ClaimDatetime": "2023-11-30 14:15:00",
+    "Incident": {
+      "Date": "2023-11-29",
+      "Hour": 10,
+      "Type": "HVAC Failure",
+      "Severity": "Severe"
+    },
+    "Damage": {
+      "Type": "System Malfunction",
+      "Description": "The HVAC system stopped heating the house."
+    },
+    "Homeowner": {
+      "Age": 45,
+      "InsuredRelationship": "primary",
+      "OwnershipYears": 10
+    },
+    "ClaimAmount": {
+      "Total": 1200,
+      "RepairCost": 1150,
+      "ServiceFee": 50
+    },
+    "NumberWitnesses": 0,
+    "SuspiciousActivity": false,
+    "MonthsAsCustomer": 65,
+    "Status": "Open",
+    "PendingDocuments": ["HVAC Technician Report", "Invoice"],
+    "PropertyType": "Multi-Family",
+    "PlanType": "Premium",
+    "Appliances": ["None"],
+    "Plumbing": ["Water Heater"],
+    "Systems": ["HVAC"],
+    "HVAC": ["Heating"],
+    "AdditionalLimits": ["pool"]
+  },
+  {
+    "PolicyId": "HW101604239",
+    "ClaimId": "2s34w-8x",
+    "ClaimType": "Appliance Replacement",
+    "Email": "example@amazon.com",
+    "ClaimDatetime": "2023-11-27 11:07:00",
+    "Incident": {
+      "Date": "2023-11-25",
+      "Hour": 9,
+      "Type": "Refrigerator Breakdown",
+      "Severity": "Critical"
+    },
+    "Damage": {
+      "Type": "Total Breakdown",
+      "Description": "The refrigerator stopped cooling and cannot be repaired."
+    },
+    "Homeowner": {
+      "Age": 44,
+      "InsuredRelationship": "spouse",
+      "OwnershipYears": 5
+    },
+    "ClaimAmount": {
+      "Total": 1500,
+      "ReplacementCost": 1450,
+      "ServiceFee": 50
+    },
+    "NumberWitnesses": 0,
+    "SuspiciousActivity": false,
+    "MonthsAsCustomer": 36,
+    "Status": "Open",
+    "PendingDocuments": ["Technician Diagnosis Report", "Proof of Purchase for Replacement"],
+    "PropertyType": "Condominium",
+    "PlanType": "Starter",
+    "Appliances": ["Kitchen Refrigerator"],
+    "Plumbing": ["Garbage Disposal"],
+    "Systems": ["Electrical"],
+    "HVAC": ["Air Conditioning"],
+    "AdditionalLimits": ["spa"]
+  }
+]
